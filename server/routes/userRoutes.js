@@ -1,6 +1,6 @@
 const express = require("express")
 const {
-    singup
+     signup
 }=require("../controllers/userController")
 
 let  userRouter=express.Router()

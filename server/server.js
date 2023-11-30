@@ -16,5 +16,5 @@ mongoose.connect(MONGOLOCAL_URL).then(()=>{
 
 server.listen(PORT,(err)=>{
     if(err)console.log(err);
-    console.log('listening on ${PORT}.....');
+    console.log(`listening on ${PORT}.....`);
 })
